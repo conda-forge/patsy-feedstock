@@ -11,6 +11,18 @@ Summary: Describing statistical models in Python using symbolic formulas
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/patsy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/patsy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/patsy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/patsy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/patsy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/patsy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/patsy/badges/version.svg)](https://anaconda.org/conda-forge/patsy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/patsy/badges/downloads.svg)](https://anaconda.org/conda-forge/patsy)
+
 Installing patsy
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `patsy` available on your platform
 ```
 conda search patsy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/patsy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/patsy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/patsy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/patsy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/patsy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/patsy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/patsy/badges/version.svg)](https://anaconda.org/conda-forge/patsy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/patsy/badges/downloads.svg)](https://anaconda.org/conda-forge/patsy)
 
 
 Updating patsy-feedstock
