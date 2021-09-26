@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/pydata/patsy
-  license: BSD-2-Clause, PSF-2.0
+  license: BSD-2-Clause AND PSF-2.0
   license_family: BSD
   license_file: LICENSE.txt
   summary: Describing statistical models in Python using symbolic formulas
