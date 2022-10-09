@@ -1,13 +1,11 @@
 {% set version = "0.5.3" %}
-{% set pkg_name = "patsy" %}
-
 
 package:
-  name: {{ pkg_name }}
+  name: patsy
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/patsy/patsy-{{ version }}.tar.gz
   sha256: bdc18001875e319bc91c812c1eb6a10be4bb13cb81eb763f466179dca3b67277
 
 build:
@@ -19,12 +17,11 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools
   run:
-    - python >=3.6
     - numpy >=1.4.0
-    - scipy
+    - python >=3.6
     - six
+    - scipy
 
 test:
   imports:
