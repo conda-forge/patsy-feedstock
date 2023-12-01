@@ -11,21 +11,27 @@ source:
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . --no-deps -vv --no-build-isolation
 
 requirements:
   host:
     - pip
     - python >=3.6
+    - six
   run:
     - numpy >=1.4.0
     - python >=3.6
-    - six
-    - scipy
 
 test:
   imports:
     - patsy
+  commands:
+    - pip check
+    - pytest -vv --color=yes --pyargs patsy --cov=patsy --cov-branch --cov-report=term-missing:skip-covered --cov-fail-under=100
+  requires:
+    - pip
+    - pytest-cov
+    - scipy
 
 about:
   home: https://github.com/pydata/patsy
@@ -33,6 +39,7 @@ about:
   license_family: BSD
   license_file: LICENSE.txt
   summary: Describing statistical models in Python using symbolic formulas
+  doc_url: https://patsy.readthedocs.io
 
 extra:
   recipe-maintainers:
