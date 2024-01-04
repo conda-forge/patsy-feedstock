@@ -1,4 +1,4 @@
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: patsy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/patsy/patsy-{{ version }}.tar.gz
-  sha256: 7fbdebd44f1ceb1db2d45d03c19ccb0c424f71dc8e66f0f3eebf87b0ff3a071a
+  sha256: 95c6d47a7222535f84bff7f63d7303f2e297747a598db89cf5c67f0c0c7d2cdb
 
 build:
   noarch: python
