@@ -148,6 +148,3 @@ Feedstock Maintainers
 * [@bollwyvl](https://github.com/bollwyvl/)
 * [@croth1](https://github.com/croth1/)
 
-
-<!-- dummy commit to enable rerendering -->
-
