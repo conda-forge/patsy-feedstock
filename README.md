@@ -9,7 +9,7 @@ Package license: BSD-2-Clause AND PSF-2.0
 
 Summary: Describing statistical models in Python using symbolic formulas
 
-Documentation: https://patsy.readthedocs.io
+Documentation: https://patsy.readthedocs.io/
 
 Current build status
 ====================
