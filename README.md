@@ -3,11 +3,13 @@ About patsy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/patsy-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/pydata/patsy
+Home: https://pypi.org/project/patsy
 
 Package license: BSD-2-Clause AND PSF-2.0
 
 Summary: Describing statistical models in Python using symbolic formulas
+
+Development: https://github.com/pydata/patsy
 
 Documentation: https://patsy.readthedocs.io/
 
