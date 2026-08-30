@@ -27,6 +27,7 @@ requirements:
     - setuptools
   run:
     - numpy >=1.4.0
+    - packaging
     - python >=${{ python_min }}
 
 tests:
@@ -49,7 +50,8 @@ about:
   license: BSD-2-Clause AND PSF-2.0
   license_file: LICENSE.txt
   summary: Describing statistical models in Python using symbolic formulas
-  homepage: https://github.com/pydata/patsy
+  homepage: https://pypi.org/project/patsy
+  repository: https://github.com/pydata/patsy
   documentation: https://patsy.readthedocs.io
 
 extra:
